@@ -1,0 +1,161 @@
+body{
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: white;  
+}
+
+
+/* Global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    padding: 0;
+    margin: 0;    
+}
+
+/* Header */
+
+header{
+    background: #000c12;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d;    
+    border-width: 0 0 3px 0;
+    border-style: solid;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:16px;
+}
+
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top:15px;
+}
+
+header .highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+
+/*showcase*/
+
+#showcase{
+    min-height: 600px;
+    background:url("../images/moving\ castle.jpg") no-repeat;
+    background-size: cover;    
+    text-align:center;
+    color:#ffffff;
+    border-bottom: black;    
+    border-width: 0 0 3px 0;
+    border-style: solid;     
+
+}
+
+#showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+#showcase p{
+    font-size:20px;
+}
+
+/**Socials**/
+
+#social{
+    margin-top:20px;    
+    color: black;
+    
+    
+}
+
+#social .box{
+    float:left;    
+    width:30%;
+    height:30%;
+    text-align:center;
+    padding:10px;
+}
+
+#social .box img{
+    width: 90px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    margin-top:80px;    
+    color: black;
+    background-color:white;
+}
+
+/**Shop**/
+
+#shop{
+    text-align:center;    
+    border-bottom: black;    
+    border-width: 0 0 3px 0;
+    border-style: solid;
+    padding:20px;
+    margin:center;
+}
+
+#shop table{
+    margin:0 auto;
+    max-width: 60%;
+}
+#shop td{
+    border:2px solid black;
+    padding:5px;
+    background-color:#b0b0b0;
+}
+
+#shop thead{    
+    font-weight:bold;
+}
+
+/** Button **/
+
+button{
+    font-weight:bold;    
+    background-color:#f0f0f0;
+    border-width:5px;
+    border:1px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 12px;
+}

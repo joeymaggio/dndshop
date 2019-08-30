@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" contect="width=device-width">
+    <meta name="author" content="Joey Maggio">
+    <title>Potions</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="script.js" async></script>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Moody's</span> Traveling Emporium</h1>
+            </div>
+                <nav>
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="weapons.html">Weapons</a></li>
+                    <li><a href="armor.html">Armor</a></li>
+                    <li class="current"><a href="potions.html">Potions</a></li>
+                    <li><a href="scrolls.html">Scrolls</a></li>
+                    <li><a href="magicitems.html">Magic Items</a></li>
+                    <li><a href="shoppingCart.html">Shopping Cart</a></li>
+                    </ul>           
+                </nav>   
+        </div>
+    </header>
+
+    <section id="shop">
+        <div class="container">      
+            <h2>Potions</h2>
+            <table>
+                <thead>
+                        <td>Type</td>
+                        <td>Cost</td>
+                        <td>Effect</td>                        
+                </thead>
+                <tbody> 
+                    <tr>
+                        <td>Perfume of Bewitching</td>
+                        <td>75 gp</td>
+                        <td>This tiny vial contains magic perfume, enough for one
+                                use. You can use an action to apply the perfume to yourself,
+                                and its effect lasts 1 hour. For the duration, you
+                                have advantage on all Charisma checks directed at humanoids
+                                of challenge rating 1 or lower. Those subjected to the perfume's 
+                                effect are not aware that they've been influenced by magic.</td>                     
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>                  
+                    <tr>
+                        <td>Potion of Climbing</td>
+                        <td>30 gp</td>
+                        <td>When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour. During this time, you have advantage on Strength (Athletics) checks you make to climb. The potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors.</td>                     
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td>Potion of Healing</td>
+                        <td>50 gp</td>
+                        <td>You regain hit points when you drink this potion (2d4+2). Whatever its potency, the potion’s red liquid glimmers when agitated.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td>Bottled Breath</td>
+                        <td>350 gp</td>
+                        <td>This bottle contains a breath of elemental air. When you inhale it, you either exhale it or hold it.
+
+                                If you exhale the breath, you gain the effect of the Gust of Wind spell. If you hold the breath, you don’t need to breathe for 1 hour, though you can end this benefit early (for example, to speak). Ending it early doesn’t give you the benefit of exhaling the breath.</td>                     
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>                      
+                    <tr>
+                        <td>Oil of Slipperiness</td>
+                        <td>250 gp</td>
+                        <td>This sticky black unguent is thick and heavy in the container, but it flows quickly when poured. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of a freedom of movement spell for 8 hours.
+
+                                Alternatively, the oil can be poured on the ground as an action, where it covers a 10-foot square, duplicating the effect of the grease spell in that area for 8 hours.
+                                </td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td>Philter of Love</td>
+                        <td>150 gp</td>
+                        <td>The next time you see a creature within 10 minutes after drinking this philter, you become charmed by that creature for 1 hour. If the creature is of a species and gender you are normally attracted to, you regard it as your true love while you are charmed. This potion's rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td>Potion of Animal Friendship</td>
+                        <td>200 gp</td>
+                        <td>When you drink this potion, you can cast the animal friendship spell (save DC 13) for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td>Potion of Fire Breath</td>
+                        <td>350 gp</td>
+                        <td>After drinking this potion, you can use a bonus action to exhale fire at a target within 30 feet of you. The target must make a DC 13 Dexterity saving throw, taking 4d6 fire damage on a failed save, or half as much damage on a successful one. The effect ends after you exhale the fire three times or when 1 hour has passed.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td>Potion of Greater Healing</td>
+                        <td>250 gp</td>
+                        <td>You regain hit points when you drink this potion (4d4+4). Whatever its potency, the potion’s red liquid glimmers when agitated.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td>Potion of Growth</td>
+                        <td>300 gp</td>
+                        <td>When you drink this potion, you gain the "enlarge" effect of the enlarge/reduce spell for 1d4 hours (no concentration required). The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td>Potion of Hill Giant Strength</td>
+                        <td>125 gp</td>
+                        <td>When you drink this potion, your Strength score changes for 1 hour. (+21 str) The potion has no effect on you if your Strength is equal to or greater than that score. </td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td>Potion of Poison</td>
+                        <td>500 gp</td>
+                        <td>This concoction looks, smells, and tastes like a potion of healing or other beneficial potion. However, it is actually poison masked by illusion magic. An identify spell reveals its true nature.
+
+                                If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be poisoned. At the start of each of your turns while you are poisoned in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>                   
+                    <tr>
+                        <td>Potion of Resistance (pick type)</td>
+                        <td>500 gp</td>
+                        <td>When you drink this potion, you gain resistance to one type of damage for 1 hour.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td>Potion of Water Breathing</td>
+                        <td>400 gp</td>
+                        <td>You can breathe underwater for 1 hour after drinking this potion. Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td>Elixir of Health</td>
+                        <td>2,000 gp</td>
+                        <td>When you drink this potion, it cures any disease afflicting you, and it removes the blinded, deafened, paralyzed, and poisoned conditions. The clear red liquid has tiny bubbles of light in it.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr> 
+                    <tr>
+                        <td>Oil of Etherealness</td>
+                        <td>2,000 gp</td>
+                        <td>Beads of this cloudy gray oil form on the outside of its container and quickly evaporate. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the etherealness spell for 1 hour.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>  
+                    <tr>
+                        <td>Potion of Clairvoyance</td>
+                        <td>900 gp</td>
+                        <td>When you drink this potion, you gain the effect of the clairvoyance spell. An eyeball bobs in this yellowish liquid but vanishes when the potion is opened.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td>Potion of Diminution</td>
+                        <td>500 gp</td>
+                        <td>When you drink this potion, you gain the "reduce" effect of the enlarge/reduce spell for 1d4 hours (no concentration required). The red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>  
+                    <tr>
+                        <td>Potion of Fire Giant Strength</td>
+                        <td>1,200 gp</td>
+                        <td>When you drink this potion, your Strength score changes for 1 hour. (+25 str) The potion has no effect on you if your Strength is equal to or greater than that score.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td>Potion of Frost Giant Strength</td>
+                        <td>650 gp</td>
+                        <td>When you drink this potion, your Strength score changes for 1 hour. (+23 str) The potion has no effect on you if your Strength is equal to or greater than that score.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr> 
+                    <tr>
+                        <td>Potion of Gaseous Form</td>
+                        <td>1,500 gp</td>
+                        <td>When you drink this potion, you gain the effect of the gaseous form spell for 1 hour (no concentration required) or until you end the effect as a bonus action. This potion's container seems to hold fog that moves and pours like water.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>      
+                    <tr>
+                        <td>Potion of Heroism</td>
+                        <td>800 gp</td>
+                        <td>For 1 hour after drinking it, you gain 10 temporary hit points that last for 1 hour. For the same duration, you are under the effect of the bless spell (no concentration required). This blue potion bubbles and steams as if boiling.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr> 
+                    <tr>
+                        <td>Potion of Invulnerability</td>
+                        <td>1,500 gp</td>
+                        <td>For 1 minute after you drink this potion, you have resistance to all damage. The potion's syrupy liquid looks like liquefied iron. </td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td>Potion of Mind Reading</td>
+                        <td>1,100 gp</td>
+                        <td>When you drink this potion, you gain the effect of the detect thoughts spell (save DC 13). The potion's dense, purple liquid has an ovoid cloud of pink floating in it.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>                                               
+                    <tr>
+                        <td>Potion of Stone Giant Strength</td>
+                        <td>650 gp</td>
+                        <td>When you drink this potion, your Strength score changes for 1 hour. (+23 str) The potion has no effect on you if your Strength is equal to or greater than that score.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>  
+                    <tr>
+                        <td>Potion of Superior Healing</td>
+                        <td>750 gp</td>
+                        <td>You regain hit points when you drink this potion (8d4+8). Whatever its potency, the potion’s red liquid glimmers when agitated.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr> 
+                    <tr>
+                        <td>Oil of Sharpness</td>
+                        <td>2,200 gp</td>
+                        <td>This clear, gelatinous oil sparkles with tiny, ultrathin silver shards. The oil can coat one slashing or piercing weapon or up to 5 pieces of slashing or piercing ammunition. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +3 bonus to attack and damage rolls.
+
+                            </td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>  
+                    <tr>
+                        <td>Potion of Cloud Giant Strength</td>
+                        <td>1,800 gp</td>
+                        <td>When you drink this potion, your Strength score changes for 1 hour. (+27 str) The potion has no effect on you if your Strength is equal to or greater than that score.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr> 
+                    <tr>
+                        <td>Potion of Flying</td>
+                        <td>2,500 gp</td>
+                        <td>When you drink this potion, you gain a flying speed equal to your walking speed for 1 hour and can hover. If you're in the air when the potion wears off, you fall unless you have some other means of staying aloft. This potion's clear liquid floats at the top of its container and has cloudy white impurities drifting in it.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>  
+                    <tr>
+                        <td>Potion of Invisibility</td>
+                        <td>2,000 gp</td>
+                        <td>This potion's container looks empty but feels as though it holds liquid. When you drink it, you become invisible for 1 hour. Anything you wear or carry is invisible with you. The effect ends early if you attack or cast a spell.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr> 
+                    <tr>
+                        <td>Potion of Longevity</td>
+                        <td>3,000 gp</td>
+                        <td>When you drink this potion, your physical age is reduced by 1d6 + 6 years, to a minimum of 13 years. Each time you subsequently drink a potion of longevity, there is a 10 percent cumulative chance that you instead age by 1d6 +6 years. Suspended in this amber liquid are a scorpion's tail, an adder's fang, a dead spider, and a tiny heart that, against all reason, is still beating. The ingredients vanish when the potion is opened. </td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td>Potion of Speed</td>
+                        <td>2,000 gp</td>
+                        <td>When you drink this potion, you gain the effect of the haste spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr> 
+                    <tr>
+                        <td>Potion of Supreme Healing</td>
+                        <td>1,500 gp</td>
+                        <td>You regain hit points when you drink this potion (10d4+20). Whatever its potency, the potion’s red liquid glimmers when agitated.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr> 
+                    <tr>
+                        <td>Potion of Vitality</td>
+                        <td>1,800 gp</td>
+                        <td>When you drink this potion, it removes any exhaustion you are suffering and cures any disease or poison affecting you. For the next 24 hours, you regain the maximum number of hit points for any Hit Die you spend. The potion's crimson liquid regularly pulses with dull light, calling to mind a heartbeat.
+
+                            </td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td>Potion of Giant Size</td>
+                        <td>11,000 gp</td>
+                        <td>When you drink this potion, you become Huge for 24
+                                hours if you are Medium or smaller, otherwise the
+                                potion does nothing. For that duration, your Strength
+                                becomes 25, if it isn't already higher, and your hit point
+                                maximum is doubled (your current hit points are doubled
+                                when you drink the potion). In addition, the reach
+                                of your melee attacks increases by 5 feet.
+                                Everything you are carrying and wearing also increases
+                                in size for the duration. When rolling damage
+                                for weapons enlarged in this manner, roll three times
+                                the normal number of dice; for example, an enlarged
+                                longsword would deal 3d8 slashing damage (instead of
+                                ld8), or 3d10 slashing damage (instead of ldlO) when
+                                used with two hands.
+                                When the effect ends, any hit points you have above
+                                your hit point maximum become temporary hit points.
+                                This potion is a pale white liquid made from the
+                                tongue of a giant clam, with a pungent aroma akin
+                                to that of rotting algae. It tastes sweet, however,
+                                when consumed.</td>                     
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>                       
+                    <tr>
+                        <td>Potion of Storm Giant Strength</td>
+                        <td>8,000 gp</td>
+                        <td>When you drink this potion, your Strength score changes for 1 hour. (+29 str) The potion has no effect on you if your Strength is equal to or greater than that score.</td>
+                        <td><button class="buy">Add to Cart</button></td>
+                    </tr>        
+
+                </tbody>
+            </table>
+            
+        </div>
+
+
+    </section>
+   
+    <section id="social">
+        <div class="container">
+            <div class="box">
+                <img src="images/moodybook.png">
+                <h3>MoodyBook</h3>
+            </div>
+            <div class="box">    
+                <img src="images/moodybird.png">                
+                <h3>MoodyBird</h3>
+            </div>
+            <div class="box">
+                <img src="images/instamoody.png">
+                <h3>InstaMoody</h3>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Moody's Traveling Emporium, Copyright &copy; 2019</p>
+    </footer>  
+</body>
+</html>
